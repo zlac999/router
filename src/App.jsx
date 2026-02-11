@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/destination">Destination</Link>
-        <Link to="/car">Car</Link>
-        <Link to="/hobby">Hobby</Link>
+        <Link to="/">home</Link>
+        <Link to="/about">about</Link>
+        <Link to="/destination">destination</Link>
+        <Link to="/car">car</Link>
+        <Link to="/hobby">hobby</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
