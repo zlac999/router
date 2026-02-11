@@ -9,18 +9,18 @@ function App() {
   return (
     <>
       <nav>
-        <Link to="/">home</Link>
-        <Link to="/about">about</Link>
-        <Link to="/destination">destination</Link>
-        <Link to="/car">car</Link>
-        <Link to="/hobby">hobby</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/destination">Destination</Link>
+        <Link to="/car">Car</Link>
+        <Link to="/hobby">Hobby</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Destination" element={<Destination />} />
-        <Route path="/Car" element={<Car />} />
-        <Route path="/Hobby" element={<Hobby />} />
+        <Route path="/destination" element={<Destination />} />
+        <Route path="/car" element={<Car />} />
+        <Route path="/hobby" element={<Hobby />} />
       </Routes>
     </>
   );
